@@ -25,7 +25,7 @@ class Square extends Rectangle {
   }
 
   getPerimeter() {
-    return 4 * this._height; // Since all sides are equal in a square, perimeter = 4 * side.
+    return 4 * this.height; // Since all sides are equal in a square, perimeter = 4 * side.
   }
 }
 
