@@ -26,6 +26,7 @@ class Square extends Rectangle {
 
   getPerimeter() {
     return 4 * this.height; // Since all sides are equal in a square, perimeter = 4 * side.
+	//this.height || this.width--> poins getter method of height and width  
   }
 }
 
